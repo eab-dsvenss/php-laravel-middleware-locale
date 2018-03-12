@@ -10,8 +10,6 @@ class EabLocaleServiceProvider extends ServiceProvider
 
     const MIDDLEWARE_FILENAME = "EabLocaleMiddleware";
 
-    private $basepath = __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR;
-
     /**
      * Bootstrap services.
      *
@@ -25,10 +23,6 @@ class EabLocaleServiceProvider extends ServiceProvider
                 EabLocaleInstall::class,
             ]);
         }
-
-        $this->publishes([
-            $this->basepath . EabLocaleServiceProvider::MIDDLEWARE_FILENAME . '.php' => app_path("Http/Middleware/" . EabLocaleServiceProvider::MIDDLEWARE_FILENAME . ".php")
-        ]);
     }
 
     /**

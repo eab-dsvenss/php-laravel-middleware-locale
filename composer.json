@@ -10,5 +10,10 @@
     "minimum-stability": "dev",
     "require": {
         "eab-dsvenss/php-laravel-util": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "se\\eab\\php\\laravel\\middleware\\locale\\": "src/"
+        }
     }
 }

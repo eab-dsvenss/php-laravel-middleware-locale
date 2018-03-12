@@ -1,6 +1,6 @@
 <?php
 
-namespace se\wb\site\Http\Middleware;
+namespace se\eab\php\Middleware\Middleware;
 
 use Closure;
 use se\eab\php\laravel\util\locale\LocaleHelper;
@@ -8,7 +8,7 @@ use \Illuminate\Http\Request;
 use se\eab\php\laravel\util\url\UrlHelper;
 use se\eab\php\laravel\util\url\RedirectContainer;
 
-class LocaleMiddleware {
+class EabLocaleMiddleware {
 
     /**
      * Handle an incoming request.
