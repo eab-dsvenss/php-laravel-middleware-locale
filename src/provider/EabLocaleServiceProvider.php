@@ -4,6 +4,7 @@ namespace se\eab\php\laravel\middleware\locale\provider;
 
 use Illuminate\Support\ServiceProvider;
 use se\eab\php\laravel\middleware\locale\command\EabLocaleInstall;
+use se\eab\php\laravel\util\provider\EabUtilServiceProvider;
 
 class EabLocaleServiceProvider extends ServiceProvider
 {
@@ -32,7 +33,7 @@ class EabLocaleServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        $this->app->register(EabUtilServiceProvider::class);
     }
 
 }
