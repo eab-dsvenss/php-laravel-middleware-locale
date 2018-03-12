@@ -4,6 +4,8 @@ namespace se\eab\php\laravel\middleware\locale\command;
 
 use Illuminate\Console\Command;
 use se\eab\php\laravel\util\provider\EabUtilServiceProvider;
+use se\eab\php\laravel\middleware\locale\provider\EabLocaleServiceProvider;
+use Artisan;
 
 class EabLocaleInstall extends Command
 {
@@ -38,6 +40,7 @@ class EabLocaleInstall extends Command
      */
     public function handle()
     {
+        Artisan::call("vendor:publish", ['--provider' => EabLocaleServiceProvider::class]);
         Artisan::call("vendor:publish", ['--provider' => EabUtilServiceProvider::class]);
     }
 }
