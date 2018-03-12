@@ -1,0 +1,14 @@
+{
+    "name": "eab-dsvenss/php-laravel-middleware-locale",
+    "description": "Middleware for handling locales",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Daniel Svensson"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "eab-dsvenss/php-laravel-util": "dev-master"
+    }
+}

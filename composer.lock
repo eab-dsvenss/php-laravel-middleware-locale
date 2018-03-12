@@ -1,0 +1,49 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "f434d5d83014c8706f2c2aa2f8dfd1d6",
+    "packages": [
+        {
+            "name": "eab-dsvenss/php-laravel-util",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eab-dsvenss/php-laravel-util.git",
+                "reference": "78f14d23a373d223d75c2fe2a3007ad1479b7d78"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eab-dsvenss/php-laravel-util/zipball/78f14d23a373d223d75c2fe2a3007ad1479b7d78",
+                "reference": "78f14d23a373d223d75c2fe2a3007ad1479b7d78",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "se\\eab\\php\\laravel\\util\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Daniel Svensson"
+                }
+            ],
+            "description": "PHP Util classes",
+            "time": "2018-03-12T17:19:38+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "eab-dsvenss/php-laravel-util": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
