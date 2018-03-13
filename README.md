@@ -1,11 +1,14 @@
 # php-laravel-middleware-locale
 Middleware for locale handling
 
-## Installation 
+## Install 
 1. Add provider to *config/app.php*
-2. Call vendor publish
-3. Install dependencies
+2. Install package
 ```bash
 php artisan eab-locale:install
 ```
-4. Register and use middleware
+
+## Use
+1. Register the middleware
+2. Use as per usual
+3. There are helpercommands available to facilitate localizing routes
