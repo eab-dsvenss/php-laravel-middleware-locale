@@ -1,6 +1,6 @@
 <?php
 
-namespace se\eab\php\Middleware\Middleware;
+namespace se\eab\php\laravel\middleware\locale;
 
 use Closure;
 use se\eab\php\laravel\util\locale\LocaleHelper;
